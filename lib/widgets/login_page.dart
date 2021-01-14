@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 child: CircleAvatar(
                   backgroundImage: NetworkImage(
-                      "http://civilsocietydialogue.org/wp-content/uploads/2015/12/RESIZED11-820x820.jpg"),
+                      "https://firebasestorage.googleapis.com/v0/b/childproject-3c859.appspot.com/o/home%2F1.png?alt=media&token=98706e20-4ed3-4bf9-a2be-f1ed65a3d892"),
                 ),
               ),
               SizedBox(

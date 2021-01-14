@@ -38,6 +38,7 @@ dependencies:
   image_picker: ^0.6.7+14
   audioplayers: ^0.17.0
   youtube_player_flutter: ^7.0.0+7
+  toast: ^0.1.5
 
 dev_dependencies:
   flutter_test:

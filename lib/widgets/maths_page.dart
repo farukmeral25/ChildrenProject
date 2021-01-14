@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_childrenproject/data/maths_model.dart';
 import 'package:flutter_app_childrenproject/widgets/learnNumber.dart';
-import 'package:flutter_app_childrenproject/widgets/number_addition.dart';
+import 'package:flutter_app_childrenproject/widgets/four_operations.dart';
 
 class MathsPage extends StatefulWidget {
   @override
@@ -136,10 +136,51 @@ class MathsTile extends StatelessWidget {
         if (index == 0) {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => LearnNumber()));
-        }else if(index == 4){
+        } else if (index == 1) {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => AdditionNumber()));
-        }else{
+            context,
+            MaterialPageRoute(
+              builder: (context) => FourOperations(
+                title: title,
+                imageUrl: imageUrl,
+                color: color,
+              ),
+            ),
+          );
+        } else if (index == 2) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => FourOperations(
+                title: title,
+                imageUrl: imageUrl,
+                color: color,
+              ),
+            ),
+          );
+        } else if (index == 3) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => FourOperations(
+                title: title,
+                imageUrl: imageUrl,
+                color: color,
+              ),
+            ),
+          );
+        } else if (index == 4) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => FourOperations(
+                title: title,
+                imageUrl: imageUrl,
+                color: color,
+              ),
+            ),
+          );
+        } else {
           return;
         }
       },
